@@ -8,7 +8,7 @@ Usa um resistor como resistor pullup externo
 - LED no pino 4, com resistor de 330Ω indo para o GND
 - Botão no pino 21 ligado entre o pino e o GND e um resistor de 10kΩ ligado entre o pino e o 3V3. 
 - `pinMode(21, INPUT)` — ativa o resistor interno
-![Esquemático da atividade 02b](esquematico.svg)
+![Esquemático da atividade 02](esquematico.svg)
 
 ## O que aprendi atividade 02 e 02b
 - **Lógica contra intuitiva:** Com o pullup, o pino lê HIGH enquanto tá solto o botão e assim que aperta o botão, ele passa a receber 0 (LOW).
